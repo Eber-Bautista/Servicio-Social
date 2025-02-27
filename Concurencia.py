@@ -1,3 +1,5 @@
+from numpy import conjugate
+
 def PureConcurrence(state):
     state=Normalize(state)
     rho=state*Adj(state)
